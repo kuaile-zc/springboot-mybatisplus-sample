@@ -1,15 +1,17 @@
 package com.zc.mybatisplus.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zc.mybatisplus.entity.User;
+import com.zc.mybatisplus.entity.StudentInfo;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author CoreyChen Zhang
- * @version 2020/7/31 17:13
- * @modified
+ * Description:
+ *
+ * @author: Corey Zhang
+ * @modified:
+ * @version: 2020-08-01 12:20
  */
 @Repository
-public interface UserDAO extends BaseMapper<User> {
+public interface StudentInfoDAO extends BaseMapper<StudentInfo> {
 }

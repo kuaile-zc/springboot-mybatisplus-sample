@@ -1,6 +1,9 @@
 package com.zc.mybatisplus.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.util.Date;
@@ -12,9 +15,12 @@ import java.util.Date;
  */
 @Data
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
+@TableName(value = "User")
 public class User {
 
-    private String id;
+    private Integer id;
     private String name;
     private Integer age;
     private Date bir;
